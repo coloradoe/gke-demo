@@ -43,8 +43,7 @@ k8s_cluster = gcp.container.Cluster('gke-cluster',
     ),
     master_authorized_networks_config=gcp.container.ClusterMasterAuthorizedNetworksConfigArgs(
         cidr_blocks=[
-            {'cidr_block': "34.134.65.37/32"},
-            {'cidr_block': "97.99.224.228/32"}
+            {'cidr_block': "<your-IP>/32"}
         ]
     )
 )
