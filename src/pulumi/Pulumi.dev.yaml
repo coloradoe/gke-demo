@@ -1,0 +1,12 @@
+config:
+  gcp:project: gke-demo-2092afn3wfn49sn20
+  gcp:zone: us-west1-a
+  gke-pulumi-demo:enable_shielded_nodes: "True"
+  gke-pulumi-demo:master_version: "1.22"
+  gke-pulumi-demo:max_node_count: "5"
+  gke-pulumi-demo:min_node_count: "1"
+  gke-pulumi-demo:password:
+    secure: AAABAGkJcB7MAbvvXRJKj/erc68hkhNTB2iBVU8tmUI96FVhsttvyAzLN+w=
+  gke-pulumi-demo:private_endpoint: "False"
+  gke-pulumi-demo:private_nodes: "True"
+  gke-pulumi-demo:remove_default_nodepool: "True"
